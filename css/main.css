@@ -62,5 +62,22 @@ img{
 
 
 
+/* Footer Area */
+#footer_area{
+  background-color: cyan;
+}
+
+ 
+#coppyright_area .col-md-6 a{
+  text-decoration: none;
+}
+#coppyright_area .col-md-6 p{
+  text-align: right;
+}
+
+.wp-block-image img {
+  max-width: 50%;
+  padding: 10px 0;
+}
 
 
