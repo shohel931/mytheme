@@ -16,10 +16,31 @@
             </div>
             <div class="col-md-6">
                 <ul id="nav">
-                    <li><a href="#">Home <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                </ul>
+                   </li>
                     <li><a href="#">About us</a></li>
-                    <li><a href="#">Services <i class="fa-solid fa-angle-down"></i></a></li>
-                    <li><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Services <i class="fa-solid fa-angle-down"></i></a>
+                    <ul>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+                    <ul>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                    <li><a href="#">Dropdown</a></li>
+                   </ul>
+                   </li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
