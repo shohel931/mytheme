@@ -22,7 +22,7 @@
                     <a href="#">Tram's & Condition</a>
                 </div>
                 <div class="col-md-6">
-                    <p>Coppyright Area</p>
+                    <p><?php echo get_theme_mod('theme_copyright_section'); ?></p>
                 </div>
             </div>
         </div>

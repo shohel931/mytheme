@@ -45,6 +45,26 @@ function logo_update($wp_customize) {
     'section' =>'theme_logo',
   )));
 
+
+
+
+    //* Coppyright Area
+  $wp_customize-> add_section('coppyright_section', array(
+    'title' =>__('Coppyright Section', 'mytheme'),
+    'description' => 'If you interested to update your footer section, you can do ithere.'
+  ));
+
+  $wp_customize-> add_setting('theme_copyright_section', array(
+    'default' => 'All Right Reserved @ plowv.com',
+  ));
+
+  $wp_customize-> add_control('theme_copyright_section', array(
+    'label' => 'Coppyright Section',
+    'description' => 'If you interested to update your footer section, you can do it here.',
+    'setting' => 'theme_copyright_section',
+    'section' => 'coppyright_section', 
+  ));
+
 }
 add_action('customize_register', 'logo_update');
 

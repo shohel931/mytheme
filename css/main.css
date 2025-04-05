@@ -79,5 +79,29 @@ img{
   max-width: 50%;
   padding: 10px 0;
 }
-
-
+#footer_area ul{
+  margin: 0;
+  padding: 10px 0;
+}
+#footer_area ul li{
+  list-style: none;
+}
+#footer_area ul li a{
+  text-decoration: none;
+  color: #262626;
+}
+#footer_area .col-md-3 h2{
+  font-size: 30px;
+  padding: 10px 0;
+}
+#footer_area .col-md-3 p{
+  font-size: 15px;
+  color: #262616;
+}
+#footer_area .coppyright_area .col-md-6 a {
+  text-decoration: none;
+  color: #33333333;
+}
+#footer_area .coppyright_area .col-md-6 p {
+  text-align: right;
+}
