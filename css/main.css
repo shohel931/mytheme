@@ -105,3 +105,6 @@ img{
 #footer_area .coppyright_area .col-md-6 p {
   text-align: right;
 }
+.coppyright_area{
+  padding: 20px 0;
+}
