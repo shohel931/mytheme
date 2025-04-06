@@ -11,13 +11,13 @@
 <header id="header_area">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-3">
             <a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_mod('theme_setting_logo'); ?>" alt=""></a>    
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6">
             <?php wp_nav_menu( array('theme_location' => 'main_manu', 'manu_id' => 'nav') ); ?>
             </div>
-            <div class="col-md-3"></div>
+            <div class="col-sm-3"></div>
         </div>
     </div>
 </header>

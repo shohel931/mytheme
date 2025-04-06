@@ -4,7 +4,7 @@ img{
 #header_area{
   padding: 15px 0;
 }
-#header_area .col-md-3 img{
+#header_area .col-sm-3 img{
   width: 60%;
 }
 
@@ -12,30 +12,30 @@ img{
 #header_area {
   padding: 15px 0;
 }
-#header_area .col-md-6 ul {
+#header_area .col-sm-6 ul {
   font-family: "Oswald", sans-serif;
   margin: 10px 0 0;
   padding: 0;
   list-style: none;
   text-align: left;
 }
-#header_area .col-md-6 ul li {
+#header_area .col-sm-6 ul li {
   display: inline-block;
   position: relative;
 }
-#header_area .col-md-6 ul li a {
+#header_area .col-sm-6 ul li a {
   color: blue;
   padding: 10px 10px;
   display: block;
   text-decoration: none;
 }
-#header_area .col-md-6 ul li a:hover {
-  background: #ea1a70;
-  color: black;
+#header_area .col-sm-6 ul li a:hover {
+  background: black;
+  color: #fff;
 }
 
 /* Dropdown Menu */
-#header_area .col-md-6 ul li ul {
+#header_area .col-sm-6 ul li ul {
   background: #262626 none repeat scroll 0 0;
   left: -99999px;
   margin: 0;
@@ -44,17 +44,17 @@ img{
   top: 40px;
   width: 150px;
 }
-#header_area .col-md-6 ul li:hover ul {
+#header_area .col-sm-6 ul li:hover ul {
   left: 0px;
 }
-#header_area .col-md-6 ul li ul li {
+#header_area .col-sm-6 ul li ul li {
   display: block;
 }
-#header_area .col-md-6 ul li ul li a {
+#header_area .col-sm-6 ul li ul li a {
   color: #fff;
   padding: 8px 10px;
 }
-#header_area .col-md-6 li ul li a:hover {
+#header_area .col-sm-6 li ul li a:hover {
   color: black;
   background: #ea1a70;
 }
@@ -67,17 +67,18 @@ img{
   background-color: cyan;
 }
 
- 
-#coppyright_area .col-md-6 a{
+/*  
+ #coppyright_area .col-sm-6 a{
   text-decoration: none;
 }
-#coppyright_area .col-md-6 p{
+#coppyright_area .col-sm-6 p{
   text-align: right;
-}
+} */
 
-.wp-block-image img {
+#footer_area img {
   max-width: 50%;
   padding: 10px 0;
+  
 }
 #footer_area ul{
   margin: 0;
@@ -90,21 +91,28 @@ img{
   text-decoration: none;
   color: #262626;
 }
-#footer_area .col-md-3 h2{
+#footer_area .col-sm-3 h2{
   font-size: 30px;
   padding: 10px 0;
 }
-#footer_area .col-md-3 p{
+#footer_area .col-sm-3 p{
   font-size: 15px;
   color: #262616;
 }
-#footer_area .coppyright_area .col-md-6 a {
+#footer_area .coppyright_area .col-sm-6 a {
   text-decoration: none;
-  color: #33333333;
+  color: #262616;
 }
-#footer_area .coppyright_area .col-md-6 p {
+#footer_area .coppyright_area .col-sm-6 p {
   text-align: right;
 }
 .coppyright_area{
   padding: 20px 0;
+} 
+
+/* Home Page Area */
+#hero_area h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
 }
