@@ -233,3 +233,14 @@ color: #AFADBF;
 #section_area5 .col-sm-6 img{
   width: 80%;
 }
+
+/* section_area6 */
+#section_area6{
+  margin-top: 100px;
+}
+#section_area6 .col-sm-12 h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #342C5C;
+  text-align: center;
+}

@@ -161,4 +161,17 @@ get_header(); ?>
 </section>
 
 
+
+<section id="section_area6">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2><?php echo get_field(''); ?>We Have Support Language For More Than 30 <br> Languages Arounf The World</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <?php get_footer(); ?>
