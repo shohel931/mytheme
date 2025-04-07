@@ -1,3 +1,15 @@
+<section id="area_all">
+    
+</section>
+
+
+
+
+
+
+
+
+
 <footer id="footer_area">
     <div class="container">
         <div class="row">
