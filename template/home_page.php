@@ -146,8 +146,15 @@ get_header(); ?>
 <section id="section_area5">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+                <h2><?php get_field(''); ?></h2>
+                <p><?php get_field(''); ?></p>
+            </div>
+            <div class="col-sm-6">
+            <?php $image= get_field(''); ?>
+            <img src="<?php echo $image; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/sub.png' ?>" alt="">
+            </div>
         </div>
     </div>
 </section>
