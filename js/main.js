@@ -7,7 +7,7 @@ counters.forEach(counter => {
 
     if (count < target) {
       counter.innerText = Math.ceil(count + increment);
-      setTimeout(updateCount, 100);
+      setTimeout(updateCount, 20);
     } else {
       counter.innerText = target.toLocaleString();
     }
