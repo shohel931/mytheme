@@ -146,14 +146,15 @@ get_header(); ?>
 <section id="section_area5">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <h2><?php get_field(''); ?></h2>
-                <p><?php get_field(''); ?></p>
+            <div class="col-sm-4">
+                <h2><?php get_field('section_5_title'); ?></h2>
+                <p><?php get_field('section_5_description'); ?></p>
+                <br>
+                <a href="#" class="btn btn-primary"><?php echo get_field('section_5_button'); ?></a>
             </div>
             <div class="col-sm-6">
-            <?php $image= get_field(''); ?>
+            <?php $image= get_field('section_5_image'); ?>
             <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/sub.png' ?>" alt="">
             </div>
         </div>
     </div>

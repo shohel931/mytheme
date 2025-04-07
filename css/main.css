@@ -216,3 +216,20 @@ color: #AFADBF;
 #section_area3 .col-sm-6 p{
   color: #AFADBF;
 }
+
+/* section_area5 */
+#section_area5{
+  margin-top: 100px;
+}
+#section_area5 .col-sm-4 h2{
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#section_area5 .col-sm-4 p{
+  color: #AFADBF;
+}
+#section_area5 .col-sm-6 img{
+  width: 80%;
+}
