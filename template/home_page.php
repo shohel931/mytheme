@@ -123,4 +123,22 @@ get_header(); ?>
 </section>
 
 
+<section id="section_area3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            <?php $image= get_field(''); ?>
+            <img src="<?php echo $image; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
+
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 <?php get_footer(); ?>
