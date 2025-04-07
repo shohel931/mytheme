@@ -131,8 +131,8 @@ get_header(); ?>
             <img src="<?php echo $image; ?>" alt="">
             </div>
             <div class="col-sm-6">
-                <h3><?php get_field('section_4_title'); ?></h3>
-                <p><?php get_field('section_4_description'); ?></p>
+                <h3><?php echo get_field('section_4_title'); ?></h3>
+                <p><?php echo get_field('section_4_description'); ?></p>
                 <br>
                 <a href="#" class="btn btn-primary"><?php echo get_field('section_4_button'); ?></a>
             </div>
@@ -147,8 +147,8 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <h2><?php get_field('section_5_title'); ?></h2>
-                <p><?php get_field('section_5_description'); ?></p>
+                <h2><?php echo get_field('section_5_title'); ?></h2>
+                <p><?php echo get_field('section_5_description'); ?></p>
                 <br>
                 <a href="#" class="btn btn-primary"><?php echo get_field('section_5_button'); ?></a>
             </div>
