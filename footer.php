@@ -1,3 +1,10 @@
+<?php
+/**
+ * Template Name: Footer Area
+ */
+
+?>
+
 <section id="area_all">
     
 </section>
@@ -6,7 +13,7 @@
 
 
 
-
+ 
 
 
 
