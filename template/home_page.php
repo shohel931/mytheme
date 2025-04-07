@@ -34,7 +34,7 @@ get_header(); ?>
                     <img src="<?php echo $image; ?>" alt="">
                     </div>
                     <div class="sub_box">
-                        <h2><?php echo get_field('section_2_box_1_title'); ?></h2>
+                        <h2 class="number" data-target="15"></h2><?php echo get_field('section_2_box_1_title'); ?></h2>
                         <p><?php echo get_field('section_2_box_1_description'); ?></p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ get_header(); ?>
                     <img src="<?php echo $image; ?>" alt="">
                     </div>
                     <div class="sub_box">
-                        <h2><?php echo get_field('section_2_box_2_title'); ?></h2>
+                        <h2 class="number" data-target="30"></h2>><?php echo get_field('section_2_box_2_title'); ?></h2>
                         <p><?php echo get_field('section_2_box_2_description'); ?></p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ get_header(); ?>
                     <img src="<?php echo $image; ?>" alt="">
                     </div>
                     <div class="sub_box">
-                        <h2><?php echo get_field('section_2_box_3_title'); ?></h2>
+                        <h2 class="number" data-target="10"></h2>><?php echo get_field('section_2_box_3_title'); ?></h2>
                         <p><?php echo get_field('section_2_box_3_description_'); ?></p>
                     </div>
                 </div>
@@ -115,7 +115,8 @@ get_header(); ?>
                 </div>
             </div>
             <div class="col-sm-7">
-                <img src="<?php echo get_template_directory_uri(). '/img/image.png' ?>" alt="">
+            <?php $image= get_field('section_3_image'); ?>
+            <img src="<?php echo $image; ?>" alt="">
             </div>
         </div>
     </div>
