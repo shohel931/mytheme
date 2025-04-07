@@ -199,3 +199,20 @@ color: #AFADBF;
 .sub_box_area p{
   color: #AFADBF;
 }
+
+/* section_area3 */
+#section_area3{
+  margin-top: 100px;
+}
+#section_area3 .col-sm-6 img{
+  width: 100%;
+  margin-left: -80px;
+}
+#section_area3 .col-sm-6 h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#section_area3 .col-sm-6 p{
+  color: #AFADBF;
+}

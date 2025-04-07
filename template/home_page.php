@@ -127,12 +127,15 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-            <?php $image= get_field(''); ?>
+            <?php $image= get_field('section_4_image'); ?>
             <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
-
             </div>
-            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+                <h2><?php get_field('section_4_title'); ?></h2>
+                <p><?php get_field('section_4_description'); ?></p>
+                <br>
+                <a href="#" class="btn btn-primary"><?php echo get_field('section_4_button'); ?></a>
+            </div>
         </div>
     </div>
 </section>
