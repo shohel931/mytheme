@@ -111,10 +111,23 @@ img{
 } 
 
 /* Home Page Area */
-#hero_area h2{
+#hero_area{
+  margin-top: 50px;
+}
+#hero_area .col-sm-5 h2{
+  margin-top: 50px;
   font-size: 40px;
   font-weight: bold;
   color: #342C5C;
+}
+#hero_area .col-sm-5 h2 span{
+  color: #9282FD;
+}
+#hero_area .col-sm-5 p{
+  color: #AFADBF;
+}
+#hero_area .col-sm-7 img{
+  width: 85%;
 }
 
 
