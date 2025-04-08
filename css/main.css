@@ -131,14 +131,20 @@ img{
   padding: 10px 0;
 }
 .area_all_content input[type="email"]{
-  width: 300px;
-  height: 50px;
+  width: 375px;
+  height: 60px;
   border-radius: 10px;
   padding: 10px;
   border: none;
   outline: none;
 }
-
+.area_all_content button{
+  margin-left: -125px;
+  border: none;
+  background: #FCA61F;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
 
 /* Home Page Area */
 #hero_area{
