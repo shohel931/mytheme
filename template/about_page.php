@@ -118,5 +118,59 @@ get_header(); ?>
 
 
 
+<section id="section_area5">
+    <div class="title_area">
+        <h2><?php echo get_field(''); ?>Pricing Plan</h2>
+        <p><?php echo get_field(''); ?>Two simple options, Free for everyone and the pro for these who <br> need that extra flavor.</p>
+    </div>
+    <div class="main_boxarea">
+        <div class="sub_boxarea">
+            <h3><?php echo get_field(''); ?>Basic,Free</h3>
+            <p><?php echo get_field(''); ?>Great for new business</p>
+
+            <ul>
+                <li><?php echo get_field(''); ?>250 customer profile</li>
+                <li><?php echo get_field(''); ?>No setup, hidden charge</li>
+                <li><?php echo get_field(''); ?>Entire course library</li>
+                <li><?php echo get_field(''); ?>Integrations facebook</li>
+            </ul>
+            <br><br><br>
+            <a class="btn1" href="#"><?php echo get_field(''); ?>Start Now</a>
+        </div>
+        <div class="sub_boxarea">
+        <h3><?php echo get_field(''); ?>Enterprise</h3>
+        <h2><?php echo get_field(''); ?>$16.9</h2>
+            <p><?php echo get_field(''); ?>Great for new business</p>
+
+            <ul>
+                <li><?php echo get_field(''); ?>250 customer profile</li>
+                <li><?php echo get_field(''); ?>No setup, hidden charge</li>
+                <li><?php echo get_field(''); ?>Entire course library</li>
+                <li><?php echo get_field(''); ?>Integrations facebook</li>
+            </ul>
+            <br>
+            <a href="#"><?php echo get_field(''); ?>Start Now</a>
+        </div>
+        <div class="sub_boxarea">
+        <h3><?php echo get_field(''); ?>Premium</h3>
+        <h2><?php echo get_field(''); ?>$30.1</h2>
+            <p><?php echo get_field(''); ?>Great for new business</p>
+
+            <ul>
+                <li><?php echo get_field(''); ?>Include 5 agen plan</li>
+                <li><?php echo get_field(''); ?>No setup, hidden charge</li>
+                <li><?php echo get_field(''); ?>Entire course library</li>
+                <li><?php echo get_field(''); ?>Integrations facebook</li>
+            </ul>
+            <br>
+            <a href="#"><?php echo get_field(''); ?>Start Now</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 
 <?php get_footer(); ?>

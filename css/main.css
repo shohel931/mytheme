@@ -402,3 +402,65 @@ color: #AFADBF;
 #section_area4 .col-sm-6 img{
   width: 80%;
 }
+
+/* section_area5 */
+#section_area5{
+  margin-top: 100px;
+}
+#section_area5 .title_area{
+  text-align: center;
+}
+#section_area5 .title_area h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#section_area5 .title_area p{
+  color: #AFADBF;
+}
+.main_boxarea{
+  display: flex;
+  justify-content: center;
+}
+.main_boxarea .sub_boxarea{
+  margin: 10px;
+  background: #fff;
+  box-shadow: 1px 1px 5px #ddd;
+  width: 260px;
+  height: 390px;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.sub_boxarea h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #342C5C;
+}
+.sub_boxarea p{
+  color: #AFADBF;
+}
+.sub_boxarea h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #8A76FC;
+}
+.sub_boxarea ul li{
+  color: #262626;
+  font-weight: 600;
+  line-height: 35px;
+}
+.sub_boxarea a{
+  text-decoration: none;
+  color: blue;
+  border: 1px solid #8A76FC;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.sub_boxarea .btn1{
+  background: #8A76FC;
+  color: #fff;
+}
+.sub_boxarea a:hover{
+  background: black;
+  color: #fff;
+}
