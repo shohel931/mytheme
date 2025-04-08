@@ -19,6 +19,9 @@ function logo_update($wp_customize) {
 
 
 
+
+  
+
     //* Coppyright Area
   $wp_customize-> add_section('coppyright_section', array(
     'title' =>__('Coppyright Section', 'mytheme'),
