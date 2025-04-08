@@ -120,50 +120,50 @@ get_header(); ?>
 
 <section id="section_area5">
     <div class="title_area">
-        <h2><?php echo get_field(''); ?>Pricing Plan</h2>
-        <p><?php echo get_field(''); ?>Two simple options, Free for everyone and the pro for these who <br> need that extra flavor.</p>
+        <h2><?php echo get_field('section_5_title'); ?></h2>
+        <p><?php echo get_field('section_5_description'); ?></p>
     </div>
     <div class="main_boxarea">
         <div class="sub_boxarea">
-            <h3><?php echo get_field(''); ?>Basic,Free</h3>
-            <p><?php echo get_field(''); ?>Great for new business</p>
+            <h3><?php echo get_field('section_5_box_1_title'); ?></h3>
+            <p><?php echo get_field('section_5_box_1_description'); ?></p>
 
             <ul>
-                <li><?php echo get_field(''); ?>250 customer profile</li>
-                <li><?php echo get_field(''); ?>No setup, hidden charge</li>
-                <li><?php echo get_field(''); ?>Entire course library</li>
-                <li><?php echo get_field(''); ?>Integrations facebook</li>
+                <li><?php echo get_field('section_5_box_1_text_1'); ?></li>
+                <li><?php echo get_field('section_5_box_1_text_2'); ?></li>
+                <li><?php echo get_field('section_5_box_1_text_3'); ?></li>
+                <li><?php echo get_field('section_5_box_1_text_4'); ?></li>
             </ul>
             <br><br><br>
-            <a class="btn1" href="#"><?php echo get_field(''); ?>Start Now</a>
+            <a class="btn1" href="#"><?php echo get_field('section_5_box_1_button'); ?></a>
         </div>
         <div class="sub_boxarea">
-        <h3><?php echo get_field(''); ?>Enterprise</h3>
-        <h2><?php echo get_field(''); ?>$16.9</h2>
-            <p><?php echo get_field(''); ?>Great for new business</p>
+        <h3><?php echo get_field('section_5_box_2_title_'); ?></h3>
+        <h2><?php echo get_field('section_5_box_2_price'); ?></h2>
+            <p><?php echo get_field('section_5_box_2_description'); ?></p>
 
             <ul>
-                <li><?php echo get_field(''); ?>250 customer profile</li>
-                <li><?php echo get_field(''); ?>No setup, hidden charge</li>
-                <li><?php echo get_field(''); ?>Entire course library</li>
-                <li><?php echo get_field(''); ?>Integrations facebook</li>
+                <li><?php echo get_field('section_5_box_2_text_1'); ?></li>
+                <li><?php echo get_field('section_5_box_2_text_2'); ?></li>
+                <li><?php echo get_field('section_5_box_2_text_3'); ?></li>
+                <li><?php echo get_field('section_5_box_2_text_4'); ?></li>
             </ul>
             <br>
-            <a href="#"><?php echo get_field(''); ?>Start Now</a>
+            <a href="#"><?php echo get_field('section_5_box_2_button'); ?></a>
         </div>
         <div class="sub_boxarea">
-        <h3><?php echo get_field(''); ?>Premium</h3>
-        <h2><?php echo get_field(''); ?>$30.1</h2>
-            <p><?php echo get_field(''); ?>Great for new business</p>
+        <h3><?php echo get_field('section_5_box_3_title_'); ?></h3>
+        <h2><?php echo get_field('section_5_box_3_price_'); ?></h2>
+            <p><?php echo get_field('section_5_box_3_description_'); ?></p>
 
             <ul>
-                <li><?php echo get_field(''); ?>Include 5 agen plan</li>
-                <li><?php echo get_field(''); ?>No setup, hidden charge</li>
-                <li><?php echo get_field(''); ?>Entire course library</li>
-                <li><?php echo get_field(''); ?>Integrations facebook</li>
+                <li><?php echo get_field('section_5_box_3_text_1'); ?></li>
+                <li><?php echo get_field('section_5_box_3_text_2'); ?></li>
+                <li><?php echo get_field('section_5_box_3_text_3'); ?></li>
+                <li><?php echo get_field('section_5_box_3_text_4'); ?></li>
             </ul>
             <br>
-            <a href="#"><?php echo get_field(''); ?>Start Now</a>
+            <a href="#"><?php echo get_field('section_5_box_3_button_'); ?></a>
         </div>
     </div>
 </section>
