@@ -7,8 +7,8 @@
                     <h3><?php echo get_field(''); ?>Subscribe To Our Newsletter & Get The <br> Coupon Code.</h3>
                     <p><?php echo get_field(''); ?>All your information is completely confidential</p>
                     <form action="">
-                        <input type="email" placeholder="Enter Your Email Address" required>
-                        <button type="submit">Subscribe</button>
+                        <input  type="email"  placeholder="Enter Your Email Address" required>
+                        <button type="submit"><?php echo get_field(''); ?>Subscribe</button>
                     </form>
                 </div>
             </div>
