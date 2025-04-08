@@ -164,14 +164,13 @@ get_header(); ?>
 
 <section id="section_area6">
     <div class="title">
-    <h2><?php echo get_field(''); ?>We Have Support Language For More Than 30 <br> Languages Arounf The World</h2>
+    <h2><?php echo get_field('section_6_title'); ?></h2>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-            <?php $image= get_field(''); ?>
+            <?php $image= get_field('section_6_image'); ?>
             <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/bg.png' ?>" alt="">
             </div>
         </div>
     </div>
