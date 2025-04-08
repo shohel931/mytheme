@@ -357,11 +357,17 @@ color: #AFADBF;
   margin: 20px;
   background: #fff;
   box-shadow: 1px 1px 5px #ddd;
-  width: 400px;
+  width: auto;
   height: 50px;
 }
 .google_box h4{
   font-size: 15px;
   font-weight: bold;
   color: #262626;
+  padding: 12px 20px;
+}
+.google_box img{
+  float: left;
+  width: 40px;
+  padding: 5px 0;
 }
