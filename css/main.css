@@ -284,3 +284,43 @@ color: #AFADBF;
 #section_area6 .col-sm-12 img{
   width: 100%;
 }
+
+
+
+/* about_area */
+#about_area{
+  margin-top: 100px;
+}
+#about_area .col-sm-6 h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#about_area .col-sm-6 p{
+  color: #AFADBF;
+}
+#about_area .col-sm-6 img{
+  width: 100%;
+}
+#about_area .col-sm-6 a{
+  text-decoration: none;
+  color: #fff;
+  background: #8A76FC;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#about_area .col-sm-6 a:hover{
+  background: black;
+  color: #fff;
+}
+#section_area2 .col-sm-7 h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#section_area2 .col-sm-7 p{
+  color: #AFADBF;
+}
+#section_area2 .col-sm-7 {
+  
+} 
