@@ -331,6 +331,7 @@ color: #AFADBF;
   text-align: center;
   height: 150px;
   padding-top: 40px;
+  border-radius: 10px;
 } 
 #section_area2 .col-sm-7 .area_box  h2{
   font-size: 40px;
@@ -372,4 +373,32 @@ color: #AFADBF;
   font-weight: bold;
   color: #665D5A;
   padding: 15px 15px;
+}
+
+/* section_area4 */
+#section_area4{
+  margin-top: 100px;
+}
+#section_area4 .col-sm-6 h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+  margin-top: 50px;
+}
+#section_area4 .col-sm-6 p{
+  color: #AFADBF;
+}
+#section_area4 .col-sm-6 a{
+  text-decoration: none;
+  color: #fff;
+  background: #8A76FC;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#section_area4 .col-sm-6 a:hover{
+  background: black;
+  color: #fff;
+}
+#section_area4 .col-sm-6 img{
+  width: 80%;
 }
