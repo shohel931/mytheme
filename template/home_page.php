@@ -187,6 +187,7 @@ get_header(); ?>
             <div class="slider">
           <div>I am a slide.</div>
          <div>I am another slide.</div>
+         <div>I am  slide.</div>
          </div>
             </div>
         </div>

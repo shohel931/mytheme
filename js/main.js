@@ -19,5 +19,7 @@ counters.forEach(counter => {
 
 // BXSlider
 jQuery(document).ready(function(){
-  jQuery(".slider").bxSlider();
+  jQuery(".slider").bxSlider({
+    auto: true,
+  });
 });
