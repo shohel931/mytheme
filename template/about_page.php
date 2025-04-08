@@ -80,4 +80,21 @@ get_header(); ?>
 
 
 
+
+
+
+
+<section id="section_area4">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6"></div>
+            <div class="col-sm-6"></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
 <?php get_footer(); ?>
