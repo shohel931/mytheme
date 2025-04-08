@@ -28,7 +28,7 @@ get_header(); ?>
 <section id="section_area2">
     <div class="container">
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-5">
             <h2><?php echo get_field(''); ?>We Are Un 6 Years <br> Experience In This Field </h2>
             <p><?php echo get_field(''); ?>An enim nullam tempor sapien gravida donec enim <br> ipsum porta justo congue magna at</p>
             <div class="slider">
@@ -37,13 +37,13 @@ get_header(); ?>
          <div>I am  slide.</div>
          </div>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-7">
                 <div class="area_box">
-                    <h2><?php echo get_field(''); ?>15k</h2>
+                    <h2 class="number" data-target="<?php echo get_field(''); ?>">15k</h2>
                     <p><?php echo get_field(''); ?>Happy Customer</p>
                 </div>
                 <div class="area_box">
-                <h2><?php echo get_field(''); ?>400+</h2>
+                <h2class="number" data-target="<?php echo get_field(''); ?>">400+</h2class=>
                 <p><?php echo get_field(''); ?>Complete Work</p>
                 </div>
             </div>

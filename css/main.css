@@ -313,14 +313,28 @@ color: #AFADBF;
   background: black;
   color: #fff;
 }
-#section_area2 .col-sm-7 h2{
+#section_area2 .col-sm-5 h2{
   font-size: 40px;
   font-weight: bold;
   color: #342C5C;
 }
-#section_area2 .col-sm-7 p{
+#section_area2 .col-sm-5 p{
   color: #AFADBF;
 }
-#section_area2 .col-sm-7 {
-  
+#section_area2 .col-sm-7 .area_box {
+  margin: 20px;
+  background: #fff;
+  box-shadow: 1px 1px 5px #ddd;
+  width: 300px;
+  text-align: center;
+  height: 150px;
+  padding-top: 40px;
 } 
+#section_area2 .col-sm-7 .area_box  h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#section_area2 .col-sm-7 .area_box  p{
+  color: #AFADBF;
+}
