@@ -1,3 +1,9 @@
+<?php
+/**
+ * The template for displaying the footer
+ */
+
+?>
 
 <section id="area_all">
     <div class="container">
