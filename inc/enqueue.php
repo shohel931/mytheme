@@ -14,6 +14,7 @@ function css_ja_file_calling() {
     
     // jQuary calling
     wp_enqueue_script( 'jquary');
+    wp_enqueue_script('jquery.min', get_template_directory_uri().'/js/jquery.min.js', array(), '3.1.1 ', 'true');
     wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.js', array(), '5.0.2', 'true');
     wp_enqueue_script('bxslider.min', get_template_directory_uri().'/js/bxslider.min.js', array(), '4.2.17', 'true');
     wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', array(), '1.0.0', 'true');
