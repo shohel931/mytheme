@@ -313,6 +313,8 @@ color: #AFADBF;
   background: black;
   color: #fff;
 }
+
+/* section_area2 */
 #section_area2 .col-sm-5 h2{
   font-size: 40px;
   font-weight: bold;
@@ -337,4 +339,29 @@ color: #AFADBF;
 }
 #section_area2 .col-sm-7 .area_box  p{
   color: #AFADBF;
+}
+
+/* section_area3 */
+#section_area3 .col-sm-5 img{
+  width: 100%;
+}
+#section_area3 .col-sm-7 h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#section_area3 .col-sm-7 p{
+  color: #AFADBF;
+}
+.google_box{
+  margin: 20px;
+  background: #fff;
+  box-shadow: 1px 1px 5px #ddd;
+  width: 400px;
+  height: 50px;
+}
+.google_box h4{
+  font-size: 15px;
+  font-weight: bold;
+  color: #262626;
 }
