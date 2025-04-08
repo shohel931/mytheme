@@ -102,13 +102,14 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-            <h2><?php echo get_field(''); ?>Supply <br> Chain Optimization</h2>
-            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected <br> humour, randomised  words which don't look even slightly believable.</p>
+            <h2><?php echo get_field('section_4_title'); ?></h2>
+            <p><?php echo get_field('section_4_description'); ?></p>
             <br>
-            <a href="#"><?php echo get_field(''); ?>Read More</a>
+            <a href="#"><?php echo get_field('section_4_button'); ?></a>
             </div>
             <div class="col-sm-6">
-            <img src="<?php echo get_template_directory_uri(). '/img/abpic.png' ?>" alt="">
+            <?php $image= get_field('section_4_image'); ?>
+            <img src="<?php echo $image; ?>" alt="">
             </div>
         </div>
     </div>
