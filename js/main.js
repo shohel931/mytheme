@@ -1,3 +1,4 @@
+// Coundown Number
 const counters = document.querySelectorAll('.number');
 counters.forEach(counter => {
   const updateCount = () => {
@@ -13,4 +14,10 @@ counters.forEach(counter => {
     }
   };
   updateCount();
+});
+
+
+// BXSlider
+jQuery(document).ready(function(){
+  jQuery(".slider").bxSlider();
 });

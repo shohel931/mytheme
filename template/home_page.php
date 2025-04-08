@@ -178,4 +178,27 @@ get_header(); ?>
 
 
 
+
+<section id="slider_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+            <div class="slider">
+          <div>I am a slide.</div>
+         <div>I am another slide.</div>
+         </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
 <?php get_footer(); ?>
