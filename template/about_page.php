@@ -87,8 +87,14 @@ get_header(); ?>
 <section id="section_area4">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6"></div>
-            <div class="col-sm-6"></div>
+            <div class="col-sm-6">
+            <h2><?php echo get_field(''); ?>Supply <br> Chain Optimization</h2>
+            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <a href="#"><?php echo get_field(''); ?>Read More</a>
+            </div>
+            <div class="col-sm-6">
+            <img src="<?php echo get_template_directory_uri(). '/img/.png' ?>" alt="">
+            </div>
         </div>
     </div>
 </section>
