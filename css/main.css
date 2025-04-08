@@ -344,6 +344,7 @@ color: #AFADBF;
 /* section_area3 */
 #section_area3 .col-sm-5 img{
   width: 100%;
+  margin-left: -60px;
 }
 #section_area3 .col-sm-7 h2{
   font-size: 40px;
@@ -353,21 +354,22 @@ color: #AFADBF;
 #section_area3 .col-sm-7 p{
   color: #AFADBF;
 }
-.google_box{
+.sub_box_area{
   margin: 20px;
   background: #fff;
   box-shadow: 1px 1px 5px #ddd;
-  width: auto;
+  width: 350px;
   height: 50px;
+  display: flex;
+  border-radius: 10px;
+}
+.icon_box img{
+  width: 35px;
+  clip-path: circle(50%);
 }
 .google_box h4{
   font-size: 15px;
   font-weight: bold;
-  color: #262626;
-  padding: 12px 20px;
-}
-.google_box img{
-  float: left;
-  width: 40px;
-  padding: 5px 0;
+  color: #665D5A;
+  padding: 15px 15px;
 }
