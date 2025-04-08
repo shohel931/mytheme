@@ -130,6 +130,15 @@ img{
   color: #ffffffff;
   padding: 10px 0;
 }
+.area_all_content input[type="email"]{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
 
 /* Home Page Area */
 #hero_area{
