@@ -4,11 +4,11 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="area_all_content">
-                    <h3><?php echo get_field(''); ?>Subscribe To Our Newsletter & Get The <br> Coupon Code.</h3>
-                    <p><?php echo get_field(''); ?>All your information is completely confidential</p>
+                    <h3><?php echo get_field('footer_box_title'); ?></h3>
+                    <p><?php echo get_field('footer_box_description'); ?></p>
                     <form action="">
-                        <input  type="email"  placeholder="Enter Your Email Address" required>
-                        <button type="submit"><?php echo get_field(''); ?>Subscribe</button>
+                        <input  type="email"  placeholder="<?php echo get_field('footer_box_input'); ?> " required>
+                        <button type="submit"><?php echo get_field('footer_box_button'); ?></button>
                     </form>
                 </div>
             </div>
