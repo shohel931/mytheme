@@ -13,7 +13,7 @@
                     <h3><?php echo get_field('footer_box_title'); ?></h3>
                     <p><?php echo get_field('footer_box_description'); ?></p>
                     <form action="">
-                        <input  type="email"  placeholder="<?php echo get_field('footer_box_input'); ?> " required>
+                        <input  type="email"  placeholder="<?php echo get_field('footer_box__placeholder'); ?> " required>
                         <button type="submit"><?php echo get_field('footer_box_button'); ?></button>
                     </form>
                 </div>
