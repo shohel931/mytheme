@@ -35,23 +35,32 @@ get_header(); ?>
 
 
 <section id="service_area1">
+    <div class="service_title">
+    <h2><?php echo get_field(''); ?>Better Agency/SEO Solution At <br> Your Fingertips</h2>
+    </div>
     <div class="main_service">
         <div class="sub_service">
-            <img src="" alt="">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/sicon.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
             <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
              <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
-        <img src="" alt="">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+        <img src="<?php echo get_template_directory_uri(). '/img/sicon1.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
             <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
              <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
-        <img src="" alt="">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+        <img src="<?php echo get_template_directory_uri(). '/img/sicon2.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
             <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
@@ -60,21 +69,27 @@ get_header(); ?>
     </div>
     <div class="main_service">
         <div class="sub_service">
-        <img src="" alt="">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+        <img src="<?php echo get_template_directory_uri(). '/img/sicon3.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
             <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
              <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
-        <img src="" alt="">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+        <img src="<?php echo get_template_directory_uri(). '/img/sicon4.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
             <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
              <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
-        <img src="" alt="">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+        <img src="<?php echo get_template_directory_uri(). '/img/sicon5.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
             <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
