@@ -509,7 +509,7 @@ color: #AFADBF;
   background: #fff;
   box-shadow: 1px 1px 5px #ddd;
   width: 260px;
-  height: auto;
+  height: 340px;
   border-radius: 20px;
   padding: 20px 10px;
 }
@@ -528,4 +528,16 @@ color: #AFADBF;
 .sub_service p{
   color: #AFADBF;
   font-size: 14px;
+  line-height: 30px;
+}
+.sub_service  a{
+  text-decoration: none;
+  color: #FBB649;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.sub_service a:hover{
+  background: black;
+  color: #fff;
 }
