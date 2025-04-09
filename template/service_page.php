@@ -36,14 +36,50 @@ get_header(); ?>
 
 <section id="service_area1">
     <div class="main_service">
-        <div class="sub_service"></div>
-        <div class="sub_service"></div>
-        <div class="sub_service"></div>
+        <div class="sub_service">
+            <img src="" alt="">
+            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
+            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+             <br>
+             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+        </div>
+        <div class="sub_service">
+        <img src="" alt="">
+            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
+            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+             <br>
+             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+        </div>
+        <div class="sub_service">
+        <img src="" alt="">
+            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
+            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+             <br>
+             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+        </div>
     </div>
     <div class="main_service">
-        <div class="sub_service"></div>
-        <div class="sub_service"></div>
-        <div class="sub_service"></div>
+        <div class="sub_service">
+        <img src="" alt="">
+            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
+            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+             <br>
+             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+        </div>
+        <div class="sub_service">
+        <img src="" alt="">
+            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
+            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+             <br>
+             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+        </div>
+        <div class="sub_service">
+        <img src="" alt="">
+            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
+            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+             <br>
+             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+        </div>
     </div>
 </section>
 

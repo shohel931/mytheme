@@ -27,7 +27,6 @@ function css_ja_file_calling() {
 function google_fonts(){
 wp_enqueue_style('google_font', 'https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap', false);
 wp_enqueue_style('font_awesoum', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css', array(), '6.7.2', false);
-wp_enqueue_style('boxicons', 'https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css', false);
 }
 add_action('wp_enqueue_scripts', 'google_fonts');
 
