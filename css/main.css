@@ -519,6 +519,7 @@ color: #AFADBF;
 .sub_service img {
   width: 22%;
   padding: 10px 0;
+  border-radius: 20px;
 }
 .sub_service h4{
   font-size: 17px;
