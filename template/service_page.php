@@ -69,23 +69,23 @@ get_header(); ?>
         <?php $image= get_field('section_1_box_4_icon_'); ?>
         <img src="<?php echo $image; ?>" alt="">
             <h4><?php echo get_field('section_1_box_4_title_'); ?></h4>
-            <p><?php echo get_field('section_1_box_4_description'); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            <p><?php echo get_field('section_1_box_4_description'); ?></p>
              <br>
              <a href=""><?php echo get_field('section_1_box_4_button_'); ?> <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
         <?php $image= get_field('section_1_box_5_icon_'); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <h4><?php echo get_field('section_1_box_5_title_'); ?>Analytics And Reportind</h4>
-            <p><?php echo get_field('section_1_box_5_description_'); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            <h4><?php echo get_field('section_1_box_5_title_'); ?></h4>
+            <p><?php echo get_field('section_1_box_5_description_'); ?></p>
              <br>
              <a href=""><?php echo get_field('section_1_box_5_button_'); ?> <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
         <?php $image= get_field('section_1_box_6_icon_'); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <h4><?php echo get_field('section_1_box_6_title'); ?>Analytics And Reportind</h4>
-            <p><?php echo get_field('section_1_box_6_description_'); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            <h4><?php echo get_field('section_1_box_6_title'); ?></h4>
+            <p><?php echo get_field('section_1_box_6_description_'); ?></p>
              <br>
              <a href=""><?php echo get_field('section_1_box_6_button_'); ?> <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
