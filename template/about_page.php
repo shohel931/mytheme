@@ -68,7 +68,7 @@ get_header(); ?>
             <p><?php echo get_field('section_3_description'); ?></p>
            
             <div class="main_box_area">
-                <div class="sub_box_area">
+                <div class="sub_box_area1">
                     <div class="icon_box">
                     <?php $image= get_field('section_3_box_1_icon'); ?>
                     <img src="<?php echo $image; ?>" alt="">
@@ -77,7 +77,7 @@ get_header(); ?>
                     <h4><?php echo get_field('section_3_box_1_title'); ?></h4>
                     </div>
                 </div>
-                <div class="sub_box_area">
+                <div class="sub_box_area1">
                     <div class="icon_box">
                     <?php $image= get_field('section_3_box_2_icon'); ?>
                     <img src="<?php echo $image; ?>" alt="">
