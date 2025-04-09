@@ -82,13 +82,12 @@ get_header(); ?>
              <a href=""><?php echo get_field('section_1_box_5_button_'); ?> <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('section_1_box_6_icon_'); ?>
         <img src="<?php echo $image; ?>" alt="">
-        <img src="<?php echo get_template_directory_uri(). '/img/sicon5.png' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
-            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            <h4><?php echo get_field('section_1_box_6_title'); ?>Analytics And Reportind</h4>
+            <p><?php echo get_field('section_1_box_6_description_'); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
-             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+             <a href=""><?php echo get_field('section_1_box_6_button_'); ?> <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
     </div>
 </section>
