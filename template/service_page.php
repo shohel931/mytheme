@@ -36,32 +36,29 @@ get_header(); ?>
 
 <section id="service_area1">
     <div class="service_title">
-    <h2><?php echo get_field(''); ?>Better Agency/SEO Solution At <br> Your Fingertips</h2>
+    <h2><?php echo get_field('section_1_title'); ?></h2>
     </div>
     <div class="main_service">
         <div class="sub_service">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('section_1_box_1_icon'); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/sicon.png' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
-            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            <h4><?php echo get_field('section_1_box1_title'); ?></h4>
+            <p><?php echo get_field('section_1_box1_description'); ?></p>
              <br>
-             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+             <a href=""><?php echo get_field('section_1_box1button'); ?> <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('section_1_box_2_icon_'); ?>
         <img src="<?php echo $image; ?>" alt="">
-        <img src="<?php echo get_template_directory_uri(). '/img/sicon1.png' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
-            <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+            <h4><?php echo get_field('section_1_box_2_title'); ?></h4>
+            <p><?php echo get_field('section_1_box_2_description_'); ?></p>
              <br>
-             <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+             <a href=""><?php echo get_field('section_1_box_2_button_'); ?> <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
         </div>
         <div class="sub_service">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('section_1_box_3_icon_'); ?>
         <img src="<?php echo $image; ?>" alt="">
-        <img src="<?php echo get_template_directory_uri(). '/img/sicon2.png' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Analytics And Reportind</h4>
+            <h4><?php echo get_field('section_1_box_3_title_'); ?></h4>
             <p><?php echo get_field(''); ?>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
              <br>
              <a href=""><?php echo get_field(''); ?>Read More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
