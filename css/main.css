@@ -465,3 +465,25 @@ color: #AFADBF;
   background: black;
   color: #fff;
 }
+
+
+/* Service Area */
+#service_area {
+  margin-top: 100px;
+}
+#service_area .col-sm-5 h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+#service_area .col-sm-5 p {
+  color: #AFADBF;
+}
+#service_area .col-sm-3  img {
+  width: 100%;
+  border-radius: 20px;
+}
+#service_area ..col-sm-2 img{
+  width: 100%;
+  border-radius: 20px;
+}
