@@ -648,3 +648,9 @@ color: #AFADBF;
 .sub_blog_bx p{
   color: #AFADBF;
 }
+
+/* blog_area3 */
+#blog_area3 .main_blog{
+  display: flex;
+  justify-content: center;
+}
