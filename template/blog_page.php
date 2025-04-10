@@ -62,28 +62,25 @@ get_header(); ?>
         <?php $image= get_field('box_1_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
             <h4><?php echo get_field('box_1_title'); ?></h4>
-            <p><?php echo get_field('box_1_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <p><?php echo get_field('box_1_description'); ?></p>
         </div>
         <div class="sub_blog">
         <?php $image= get_field('box_2_image_'); ?>
         <img src="<?php echo $image; ?>" alt="">
-        <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field('box_2_title'); ?>Our Co-Founders Tuomo Riekki</h4>
-            <p><?php echo get_field('box_2_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <h4><?php echo get_field('box_2_title'); ?></h4>
+            <p><?php echo get_field('box_2_description'); ?></p>
         </div>
         <div class="sub_blog">
         <?php $image= get_field('box_3_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
-        <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field('box_3_title'); ?>Our Co-Founders Tuomo Riekki</h4>
-            <p><?php echo get_field('box_3_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <h4><?php echo get_field('box_3_title'); ?></h4>
+            <p><?php echo get_field('box_3_description'); ?></p>
         </div>
         <div class="sub_blog">
         <?php $image= get_field('box_4_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
-        <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field('box_4_title'); ?>Our Co-Founders Tuomo Riekki</h4>
-            <p><?php echo get_field('box_4_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <h4><?php echo get_field('box_4_title'); ?></h4>
+            <p><?php echo get_field('box_4_description'); ?></p>
         </div>
     </div>
 </section>
