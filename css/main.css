@@ -561,10 +561,10 @@ color: #AFADBF;
 }
 .serv_main_bx .sub_serv_bx{
   margin: 10px;
-  background: #fff;
+  background: red;
   box-shadow: 1px 1px 5px #ddd;
-  width: 260px;
-  height: 340px;
+  width: 210px;
+  height: 270px;
   border-radius: 20px;
   padding: 20px 10px;
 }
@@ -572,7 +572,17 @@ color: #AFADBF;
   text-align: center;
 }
 .sub_serv_bx img {
-  width: 80%;
+  width: 50%;
   clip-path: circle(50%);
   padding: 20px 0;
+}
+.sub_serv_bx h4 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #342C5C;
+}
+.sub_serv_bx p {
+  color: #AFADBF;
+  font-size: 14px;
 }
