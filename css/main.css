@@ -561,10 +561,10 @@ color: #AFADBF;
 }
 .serv_main_bx .sub_serv_bx{
   margin: 10px;
-  background: red;
+  background: #fff;
   box-shadow: 1px 1px 5px #ddd;
   width: 210px;
-  height: 270px;
+  height: 250px;
   border-radius: 20px;
   padding: 20px 10px;
 }
@@ -572,8 +572,8 @@ color: #AFADBF;
   text-align: center;
 }
 .sub_serv_bx img {
-  width: 50%;
-  clip-path: circle(50%);
+  width: 45%;
+  clip-path: circle(40%);
   padding: 20px 0;
 }
 .sub_serv_bx h4 {
