@@ -635,8 +635,9 @@ color: #AFADBF;
   width: 500px;
   height: auto;
 }
-.sub_blog_bx img{
-  width: 100%;
+.sub_blog_bx img{   
+  width: 500px;
+  height: 390px;
   border-radius: 20px;
 }
 .sub_blog_bx h4{
@@ -662,7 +663,8 @@ color: #AFADBF;
   /* padding: 20px 10px; */
 }
 .sub_blog img{
-  width: 100%;
+  width: 260px;
+  height: 180px;
   border-radius: 20px;
 }
 .sub_blog h4{
