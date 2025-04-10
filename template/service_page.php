@@ -139,21 +139,21 @@ get_header(); ?>
         <div class="sub_serv_bx">
         <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/pro.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Andree Lena</h4>
             <p><?php echo get_field(''); ?>UI designer</p>
         </div>
         <div class="sub_serv_bx">
         <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/pro.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Mark Busnek</h4>
             <p><?php echo get_field(''); ?>Product designer</p>
         </div>
         <div class="sub_serv_bx">
         <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/pro.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Kristofer Salcot</h4>
             <p><?php echo get_field(''); ?>Web designer</p>
         </div>

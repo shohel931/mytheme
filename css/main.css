@@ -550,8 +550,29 @@ color: #AFADBF;
 #service_area4 .serv_title {
   text-align: center;
 }
-#service_area4 .serv_title h2 {
+#service_area4 .serv_title h3 {
   font-size: 30px;
   font-weight: bold;
   color: #342C5C;
+}
+.serv_main_bx {
+  display: flex;
+  justify-content: center;
+}
+.serv_main_bx .sub_serv_bx{
+  margin: 10px;
+  background: #fff;
+  box-shadow: 1px 1px 5px #ddd;
+  width: 260px;
+  height: 340px;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.sub_serv_bx {
+  text-align: center;
+}
+.sub_serv_bx img {
+  width: 80%;
+  clip-path: circle(50%);
+  padding: 20px 0;
 }
