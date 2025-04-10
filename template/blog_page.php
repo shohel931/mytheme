@@ -59,32 +59,31 @@ get_header(); ?>
 <section id="blog_area3">
     <div class="main_blog">
         <div class="sub_blog">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_1_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
-        <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
-            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <h4><?php echo get_field('box_1_title'); ?></h4>
+            <p><?php echo get_field('box_1_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
         <div class="sub_blog">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_2_image_'); ?>
         <img src="<?php echo $image; ?>" alt="">
         <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
-            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <h4><?php echo get_field('box_2_title'); ?>Our Co-Founders Tuomo Riekki</h4>
+            <p><?php echo get_field('box_2_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
         <div class="sub_blog">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_3_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
         <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
-            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <h4><?php echo get_field('box_3_title'); ?>Our Co-Founders Tuomo Riekki</h4>
+            <p><?php echo get_field('box_3_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
         <div class="sub_blog">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_4_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
         <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
-            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
+            <h4><?php echo get_field('box_4_title'); ?>Our Co-Founders Tuomo Riekki</h4>
+            <p><?php echo get_field('box_4_description'); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
     </div>
 </section>
