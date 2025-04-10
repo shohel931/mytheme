@@ -31,23 +31,21 @@ get_header(); ?>
         <div class="row">
             <div class="col-sm-12">
             <div class="blog_title1">
-        <h3><?php echo get_field(''); ?>Look What Our Working <br> Process</h3>
+        <h3><?php echo get_field('title_'); ?></h3>
     </div>
 
     <div class="blog_main_bx">
         <div class="sub_blog_bx">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_1_image'); ?>
             <img src="<?php echo $image; ?>" alt="">
-                <img src="<?php echo get_template_directory_uri(). '/img/blgb.png' ?>" alt="">
-                <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo</h4>
-                <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are serial entrepreneurs who, back in 2013.</p>
+                <h4><?php echo get_field('box_1_title'); ?></h4>
+                <p><?php echo get_field('box_1_description'); ?></p>
         </div>
         <div class="sub_blog_bx">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_2_image'); ?>
             <img src="<?php echo $image; ?>" alt="">
-                <img src="<?php echo get_template_directory_uri(). '/img/blgb1.png' ?>" alt="">
-                <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo</h4>
-                <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are serial entrepreneurs who, back in 2013.</p>
+                <h4><?php echo get_field('box_2_title_'); ?></h4>
+                <p><?php echo get_field('box_2_description'); ?></p>
         </div>
     </div>
             </div>
