@@ -129,7 +129,34 @@ get_header(); ?>
 
 
 
-
+<section id="service_area4">
+    <div class="serv_title">
+    <h3><?php echo get_field(''); ?></h3>
+    </div>
+    <div class="serv_main_bx">
+        <div class="sub_serv_bx">
+        <?php $image= get_field('section_3_box_1_icon'); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
+            <h4><?php echo get_field(''); ?></h4>
+            <p><?php echo get_field(''); ?></p>
+        </div>
+        <div class="sub_serv_bx">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
+            <h4><?php echo get_field(''); ?></h4>
+            <p><?php echo get_field(''); ?></p>
+        </div>
+        <div class="sub_serv_bx">
+        <?php $image= get_field('section_3_box_1_icon'); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
+            <h4><?php echo get_field(''); ?></h4>
+            <p><?php echo get_field(''); ?></p>
+        </div>
+    </div>
+</section>
 
 
 
