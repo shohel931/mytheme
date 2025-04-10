@@ -615,3 +615,36 @@ color: #AFADBF;
   background: black;
   color: #fff;
 }
+
+/* blog_area2 */
+#blog_area2{
+  margin-top: 100px;
+}
+.blog_title1 h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+  text-align: start;
+}
+.blog_main_bx{
+  display: flex;
+}
+.sub_blog_bx{
+  margin:0 10px;
+  background: #fff;
+  width: 500px;
+  height: auto;
+}
+.sub_blog_bx img{
+  width: 100%;
+  border-radius: 20px;
+}
+.sub_blog_bx h4{
+  font-size: 30px;
+  font-weight: bold;
+  color: #342C5C;
+  padding: 10px 0;
+}
+.sub_blog_bx p{
+  color: #AFADBF;
+}

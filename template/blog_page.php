@@ -27,7 +27,10 @@ get_header(); ?>
 
 
 <section id="blog_area2">
-    <div class="blog_title1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+            <div class="blog_title1">
         <h3><?php echo get_field(''); ?>Look What Our Working <br> Process</h3>
     </div>
 
@@ -35,18 +38,22 @@ get_header(); ?>
         <div class="sub_blog_bx">
         <?php $image= get_field(''); ?>
             <img src="<?php echo $image; ?>" alt="">
-                <img src="<?php echo get_template_directory_uri(). '/img/png.png' ?>" alt="">
+                <img src="<?php echo get_template_directory_uri(). '/img/blgb.png' ?>" alt="">
                 <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo</h4>
                 <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are serial entrepreneurs who, back in 2013.</p>
         </div>
         <div class="sub_blog_bx">
         <?php $image= get_field(''); ?>
             <img src="<?php echo $image; ?>" alt="">
-                <img src="<?php echo get_template_directory_uri(). '/img/png.png' ?>" alt="">
+                <img src="<?php echo get_template_directory_uri(). '/img/blgb1.png' ?>" alt="">
                 <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo</h4>
                 <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are serial entrepreneurs who, back in 2013.</p>
         </div>
     </div>
+            </div>
+        </div>
+    </div>
+   
 </section>
 
 
