@@ -12,21 +12,21 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-5">
-                <h2><?php echo get_field(''); ?>We Serve Lot Of <br> Services For <br> Customers</h2>
-                <p><?php echo get_field(''); ?>An enim nullam tempor sapien gravida donec enim <br> ipsum porta justo congue magna at</p>
+                <h2><?php echo get_field('title'); ?></h2>
+                <p><?php echo get_field('title_description'); ?></p>
                 <br>
-                <a class="btn btn-primary" href="#"><?php echo get_field(''); ?>Get Start Now</a>
+                <a class="btn btn-primary" href="#"><?php echo get_field('button'); ?></a>
             </div>
             <div class="col-sm-3">
-            <?php $image= get_field('section_1_box_2_icon_'); ?>
+            <?php $image= get_field('image_1'); ?>
             <img src="<?php echo $image; ?>" alt="">
             </div>
             <div class="col-sm-2">
-            <?php $image= get_field('section_1_box_2_icon_'); ?>
+            <?php $image= get_field('image_2'); ?>
             <img src="<?php echo $image; ?>" alt="">
             </div>
             <div class="col-sm-2">
-            <?php $image= get_field('section_1_box_2_icon_'); ?>
+            <?php $image= get_field('image_3'); ?>
             <img src="<?php echo $image; ?>" alt="">
             </div>
         </div>
