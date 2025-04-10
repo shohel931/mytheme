@@ -18,13 +18,16 @@ get_header(); ?>
                 <a class="btn btn-primary" href="#"><?php echo get_field(''); ?>Get Start Now</a>
             </div>
             <div class="col-sm-3">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/ser.png" alt="service" class="img-responsive">
+            <?php $image= get_field('section_1_box_2_icon_'); ?>
+            <img src="<?php echo $image; ?>" alt="">
             </div>
             <div class="col-sm-2">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/ser1.png" alt="service" class="img-responsive">
+            <?php $image= get_field('section_1_box_2_icon_'); ?>
+            <img src="<?php echo $image; ?>" alt="">
             </div>
             <div class="col-sm-2">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/ser2.png" alt="service" class="img-responsive">
+            <?php $image= get_field('section_1_box_2_icon_'); ?>
+            <img src="<?php echo $image; ?>" alt="">
             </div>
         </div>
     </div>
