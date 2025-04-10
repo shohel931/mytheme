@@ -586,3 +586,32 @@ color: #AFADBF;
   color: #AFADBF;
   font-size: 14px;
 }
+
+/* Blog Page */
+#blog_hero{
+  margin-top: 50px;
+}
+#blog_hero .col-sm-5 h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+  margin-top: 40px;
+}
+#blog_hero .col-sm-5 p{
+  color: #AFADBF;
+}
+#blog_hero .col-sm-5 img{
+  width: 100%;
+  border-radius: 20px;
+}
+#blog_hero .col-sm-5 a{
+  text-decoration: none;
+  color: #fff;
+  background: #8A76FC;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#blog_hero .col-sm-5 a:hover{
+  background: black;
+  color: #fff;
+}
