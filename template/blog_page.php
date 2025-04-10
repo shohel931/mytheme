@@ -56,7 +56,34 @@ get_header(); ?>
 
 
 
-
+<section id="blog_area3">
+    <div class="main_blog">
+        <div class="sub_blog">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <h4><?php echo get_field(''); ?></h4>
+            <p><?php echo get_field(''); ?></p>
+        </div>
+        <div class="sub_blog">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <h4><?php echo get_field(''); ?></h4>
+            <p><?php echo get_field(''); ?></p>
+        </div>
+        <div class="sub_blog">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <h4><?php echo get_field(''); ?></h4>
+            <p><?php echo get_field(''); ?></p>
+        </div>
+        <div class="sub_blog">
+        <?php $image= get_field(''); ?>
+        <img src="<?php echo $image; ?>" alt="">
+            <h4><?php echo get_field(''); ?></h4>
+            <p><?php echo get_field(''); ?></p>
+        </div>
+    </div>
+</section>
 
 
 
