@@ -654,3 +654,24 @@ color: #AFADBF;
   display: flex;
   justify-content: center;
 }
+.sub_blog{
+  margin:0 10px;
+  width: 260px;
+  height: auto;
+  border-radius: 20px;
+  /* padding: 20px 10px; */
+}
+.sub_blog img{
+  width: 100%;
+  border-radius: 20px;
+}
+.sub_blog h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: #342C5C;
+  padding: 10px 0;
+}
+.sub_blog p{
+  color: #AFADBF;
+  line-height: 30px;
+}

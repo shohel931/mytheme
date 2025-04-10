@@ -62,29 +62,29 @@ get_header(); ?>
         <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
         <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?></h4>
-            <p><?php echo get_field(''); ?></p>
+            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
+            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
         <div class="sub_blog">
         <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
         <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?></h4>
-            <p><?php echo get_field(''); ?></p>
+            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
+            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
         <div class="sub_blog">
         <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
         <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?></h4>
-            <p><?php echo get_field(''); ?></p>
+            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
+            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
         <div class="sub_blog">
         <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
         <img src="<?php echo get_template_directory_uri(). '/img/blwork3.jpg' ?>" alt="">
-            <h4><?php echo get_field(''); ?></h4>
-            <p><?php echo get_field(''); ?></p>
+            <h4><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki</h4>
+            <p><?php echo get_field(''); ?>Our Co-Founders Tuomo Riekki And Kristo Ovaska are</p>
         </div>
     </div>
 </section>
