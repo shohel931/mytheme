@@ -542,3 +542,16 @@ color: #AFADBF;
   background: black;
   color: #fff;
 }
+
+/* service_area4 */
+#service_area4 {
+  margin-top: 100px;
+}
+#service_area4 .serv_title {
+  text-align: center;
+}
+#service_area4 .serv_title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #342C5C;
+}

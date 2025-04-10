@@ -137,7 +137,7 @@ get_header(); ?>
     </div>
     <div class="serv_main_bx">
         <div class="sub_serv_bx">
-        <?php $image= get_field('section_3_box_1_icon'); ?>
+        <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
             <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Andree Lena</h4>
@@ -151,7 +151,7 @@ get_header(); ?>
             <p><?php echo get_field(''); ?>Product designer</p>
         </div>
         <div class="sub_serv_bx">
-        <?php $image= get_field('section_3_box_1_icon'); ?>
+        <?php $image= get_field(''); ?>
         <img src="<?php echo $image; ?>" alt="">
             <img src="<?php echo get_template_directory_uri(). '/img/logo.png' ?>" alt="">
             <h4><?php echo get_field(''); ?>Kristofer Salcot</h4>
