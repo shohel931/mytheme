@@ -133,29 +133,26 @@ get_header(); ?>
 
 <section id="service_area4">
     <div class="serv_title">
-    <h3><?php echo get_field(''); ?>Our Valueabe Team Member</h3>
+    <h3><?php echo get_field('title'); ?></h3>
     </div>
     <div class="serv_main_bx">
         <div class="sub_serv_bx">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_1_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/pic.jpeg' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Andree Lena</h4>
-            <p><?php echo get_field(''); ?>UI designer</p>
+            <h4><?php echo get_field('box_1_title'); ?></h4>
+            <p><?php echo get_field('box_1_description'); ?></p>
         </div>
         <div class="sub_serv_bx">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_2_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/pic.jpeg' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Mark Busnek</h4>
-            <p><?php echo get_field(''); ?>Product designer</p>
+            <h4><?php echo get_field('box_2_title_'); ?></h4>
+            <p><?php echo get_field('box_2_description'); ?></p>
         </div>
         <div class="sub_serv_bx">
-        <?php $image= get_field(''); ?>
+        <?php $image= get_field('box_3_image'); ?>
         <img src="<?php echo $image; ?>" alt="">
-            <img src="<?php echo get_template_directory_uri(). '/img/pic.jpeg' ?>" alt="">
-            <h4><?php echo get_field(''); ?>Kristofer Salcot</h4>
-            <p><?php echo get_field(''); ?>Web designer</p>
+            <h4><?php echo get_field('box_3_title_'); ?></h4>
+            <p><?php echo get_field('box_3_description'); ?></p>
         </div>
     </div>
 </section>
