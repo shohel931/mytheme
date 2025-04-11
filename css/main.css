@@ -677,3 +677,21 @@ color: #AFADBF;
   color: #AFADBF;
   line-height: 30px;
 }
+
+/* Contact us */
+#contact_hero{
+  margin-top: 50px;
+}
+.main_contact{
+  display: flex;
+}
+.contact_form{
+  margin: 20px;
+}
+.contact_form input{
+  width: 330px;
+  padding: 10px 0;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid #AFADBF;
+}

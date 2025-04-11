@@ -25,9 +25,17 @@ get_header(); ?>
                         <input type="checkbox" required> I agree to the <a href="#">terms and conditions</a>
                         <br>
                         <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
                     </form>
                 </div>
-                <div class="contact_form"></div>
+                <div class="contact_form">
+                    <p>Address</p>
+                    <h5>123 Maint st Anytown, USA</h5>
+                    <br>
+                    <p>Support</p>
+                    <h5>+01234567890</h5>
+                    <h5>sinfo@mymt.com</h5>
+                </div>
                 </div>
                 
             </div>
