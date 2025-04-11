@@ -20,12 +20,12 @@ get_header(); ?>
                         <input type="email" placeholder="Email" required>
                         <input type="number" placeholder="Phone" required>
                         <br>
-                        <input type="text-area" placeholder="Message" required>
+                        <input class="message" type="text-area" placeholder="Message" required>
                         <br>
                         <input class="checkbox" type="checkbox" required> I agree to the <a href="#">terms and conditions</a>
                         <br>
-                        <button type="submit">Submit</button>
-                        <button type="reset">Reset</button>
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                        <button class="btn btn-danger" type="reset">Reset</button>
                     </form>
                 </div>
                 <div class="contact_form">

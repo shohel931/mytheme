@@ -695,6 +695,16 @@ color: #AFADBF;
   border: none;
   border-bottom: 1px solid #AFADBF;
 }
+.contact_form .message{
+  width: 685px;
+}
 .contact_form .checkbox{
   width: 13px;
+}
+.contact_form button{
+  margin-top: 20px;
+}
+.contact_form button:hover{
+  background: black;
+  color: #fff;
 }
