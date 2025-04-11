@@ -11,6 +11,9 @@ get_header(); ?>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
+                <div class="hero_text">
+                    <h2><?php echo get_field('title'); ?></h2>
+                    <p><?php echo get_field('description'); ?></p>
                 <div class="main_contact">
                 <div class="contact_form">
                     <form action="">
@@ -28,7 +31,7 @@ get_header(); ?>
                         <button class="btn btn-danger" type="reset">Reset</button>
                     </form>
                 </div>
-                <div class="contact_form">
+                <div class="contact_form1">
                     <p>Address</p>
                     <h5>123 Maint st Anytown, USA</h5>
                     <br>

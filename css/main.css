@@ -682,11 +682,20 @@ color: #AFADBF;
 #contact_hero{
   margin-top: 50px;
 }
+.hero_text h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #342C5C;
+}
+.hero_text p{
+  color: #AFADBF;
+}
 .main_contact{
   display: flex;
+  margin: 0;
 }
 .contact_form{
-  margin: 20px;
+  margin: 20px 0;
 }
 .contact_form input{
   width: 330px;
@@ -707,4 +716,18 @@ color: #AFADBF;
 .contact_form button:hover{
   background: black;
   color: #fff;
+}
+.contact_form1{
+  margin: 20px;
+  width: 400px;
+  padding: 20px 10px;
+}
+.contact_form1 p{
+  color: #AFADBF;
+}
+.contact_form1 h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: #342C5C;
+  padding: 10px 0;
 }
