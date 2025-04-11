@@ -20,7 +20,11 @@ get_header(); ?>
                         <input type="email" placeholder="Email" required>
                         <input type="number" placeholder="Phone" required>
                         <br>
-                        <input type="tel" placeholder="Message" required>
+                        <input type="text-area" placeholder="Message" required>
+                        <br>
+                        <input type="checkbox" required> I agree to the <a href="#">terms and conditions</a>
+                        <br>
+                        <button type="submit">Submit</button>
                     </form>
                 </div>
                 <div class="contact_form"></div>
