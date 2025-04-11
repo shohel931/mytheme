@@ -7,7 +7,24 @@ get_header(); ?>
 
 
 
-
+<section id="contact_hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="contact_form">
+                    <form action="">
+                        <input type="text" placeholder="First name" required>
+                        <input type="text" placeholder="Last name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="number" placeholder="Phone" required>
+                        <input type="textarea" placeholder="Message" required>
+                    </form>
+                </div>
+                <div class="contact_form"></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
