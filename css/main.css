@@ -695,3 +695,6 @@ color: #AFADBF;
   border: none;
   border-bottom: 1px solid #AFADBF;
 }
+.contact_form .checkbox{
+  width: 13px;
+}
