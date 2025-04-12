@@ -52,10 +52,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <a href="#"><?php echo get_option('coppy'); ?></a>
+                    <a href="#"><?php echo get_option('footer'); ?></a>
                 </div>
                 <div class="col-sm-6">
-                    <p><?php echo get_theme_mod('theme_copyright_section'); ?></p>
+                    <p><?php echo get_option('coppy'); ?></p>
                 </div>
             </div>
         </div>
