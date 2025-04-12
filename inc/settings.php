@@ -22,3 +22,17 @@ function coppy_func(){
     <input type="text" name="coppy" value="<?php echo get_option('coppy'); ?>" placeholder="Coppyright" class="regular-text" />
     <?php
 }
+
+
+
+
+function my_custom_settings_menu() {
+    add_options_page(
+        'Header',     // Page title
+        'Header',     // Menu title
+        'manage_options',        // Capability
+        'header',     // Menu slug
+        'header-setting' // Callback function
+    );
+}
+add_action('admin_menu', 'my_custom_settings_menu');
