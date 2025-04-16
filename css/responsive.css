@@ -70,7 +70,7 @@
     }
     #hero_area .col-sm-5 p {
         line-height: 34px;
-        font-size: 16px;
+        font-size: 25px;
     }  
     .btn-primary {
         font-size: 25px;
@@ -339,8 +339,21 @@
         display: inline;
     }
     .contact_form input {
-        width: 99%;
+        width: 96%;
+        font-size: 22px;
     }
+    .contact_form .message {
+        width: 96%;
+    }
+    .contact_form span {
+        font-size: 20px;
+    }
+    button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+        font-size: 20px;
+    }
+
+  
+
 
 
        

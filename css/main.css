@@ -710,6 +710,9 @@ color: #AFADBF;
 .contact_form .checkbox{
   width: 13px;
 }
+.contact_form span{
+  font-size: 15px;
+}
 .contact_form button{
   margin-top: 20px;
 }

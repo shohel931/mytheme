@@ -25,7 +25,7 @@ get_header(); ?>
                         <br>
                         <input class="message" type="text-area" placeholder="Message" required>
                         <br>
-                        <input class="checkbox" type="checkbox" required> I agree to the <a href="#">terms and conditions</a>
+                        <input class="checkbox" type="checkbox" required><span>I agree to the </span> <a href="#">terms and conditions</a>
                         <br>
                         <button class="btn btn-primary" type="submit">Submit</button>
                         <button class="btn btn-danger" type="reset">Reset</button>
