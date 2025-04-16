@@ -283,7 +283,31 @@
         width: 100%;
         margin-top: 20px;
     }
-    
+    #service_area1 .service_title h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .main_service {
+        display: inline;
+    }
+    .main_service .sub_service {
+        width: 96%;
+        height: auto;;
+    }
+    .sub_service h4 {
+        font-size: 25px;
+    }
+    .sub_service p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .sub_service  a {
+        font-size: 25px;
+    }
+    #service_area4 .serv_title h3 {
+        font-size: 35px;
+        text-align: center;
+    }
 
 
        
