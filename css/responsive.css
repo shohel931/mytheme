@@ -143,9 +143,13 @@
         margin-top: 25px;
     }
     #section_area6 .title h2 {
-        font-size: 20px;
+        font-size: 27px;
+        text-align: center;
     }
-      
+    .area_all_content h3 {
+        font-size: 32px;
+        text-align: center;
+    } 
        
        
        
