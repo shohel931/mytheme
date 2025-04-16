@@ -152,7 +152,7 @@
         text-align: center;
     }
     .area_all_content input[type="email"] {
-        width: 340px;
+        width: 310px;
     }
     #footer_area {
         margin: 20px 0;
@@ -307,6 +307,39 @@
     #service_area4 .serv_title h3 {
         font-size: 35px;
         text-align: center;
+    }
+    .serv_main_bx {
+        display: inline;
+    }
+    .serv_main_bx .sub_serv_bx {
+        width: 95%;
+        height: auto;
+    }
+    .sub_serv_bx img {
+        width: 35%;
+    }
+    .sub_serv_bx h4 {
+        font-size: 30px;;
+    }
+    .sub_serv_bx p {
+        font-size: 25px;
+    }
+
+    /* Contact Page */
+    .hero_text h2 {
+        font-size: 35px;
+    }
+    .hero_text p {
+        font-size: 20px;
+    }
+    .hero_text a {
+        font-size: 20px;
+    }
+    .main_contact {
+        display: inline;
+    }
+    .contact_form input {
+        width: 99%;
     }
 
 
