@@ -131,7 +131,21 @@
     }#section_area5 .col-sm-4 h2 {
         margin-top: 30px;
         font-size: 30px;
-    }  
+    }
+    #section_area5 .col-sm-4 p {
+        font-size: 20px;
+    }
+    #section_area5 .col-sm-6 img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #section_area6 {
+        margin-top: 25px;
+    }
+    #section_area6 .title h2 {
+        font-size: 20px;
+    }
+      
        
        
        
