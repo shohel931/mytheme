@@ -330,7 +330,7 @@
         font-size: 35px;
     }
     .hero_text p {
-        font-size: 20px;
+        font-size: 30px;
     }
     .hero_text a {
         font-size: 20px;
@@ -350,6 +350,12 @@
     }
     button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
         font-size: 20px;
+    }
+    .contact_form1 h5 {
+        font-size: 40px;
+    }
+    .contact_form1 {
+        width: 98%;
     }
 
   
