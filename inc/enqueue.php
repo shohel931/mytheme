@@ -7,9 +7,11 @@ function css_ja_file_calling() {
     wp_register_style('bootstrap', get_template_directory_uri().'/css/bootstrap.css', array(), '5.0.2', 'all');
     wp_register_style('bxslider', get_template_directory_uri().'/css/bxslider.min.css', array(), '4.2.17', 'all');
     wp_register_style('main', get_template_directory_uri().'/css/main.css', array(), '1.0.0', 'all');
+    wp_register_style('responsive', get_template_directory_uri().'/css/responsive.css', array(), '1.0.0', 'all');
     wp_enqueue_style('bootstrap');
     wp_enqueue_style('bxslider');
     wp_enqueue_style('main');
+    wp_enqueue_style('responsive');
     
     
     // jQuary calling
