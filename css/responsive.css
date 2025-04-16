@@ -177,7 +177,17 @@
     #footer_area .col-sm-3 p {
         font-size: 23px;
     }
-       
+     
+    /* About Page */
+    #about_area {
+        margin-top: 10px;
+    }
+    #about_area .col-sm-6 h2 {
+        font-size: 33px;
+    }
+    #about_area .col-sm-6 p {
+        font-size: 20px;
+    }
        
        
        
