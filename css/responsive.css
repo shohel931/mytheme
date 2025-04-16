@@ -84,7 +84,16 @@
         text-align: center;
     }
     .box .sub_box img {
-        width: 190px;
+        width: 180px;
+    }
+    .box .sub_box h2 {
+        font-size: 40px;
+    }
+    .box .sub_box p {
+        font-size: 25px;
+    }
+    #section_area2 .col-sm-5 h2 {
+        font-size: 32px;
     }  
        
        
