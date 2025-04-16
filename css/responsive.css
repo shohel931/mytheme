@@ -94,6 +94,18 @@
     }
     #section_area2 .col-sm-5 h2 {
         font-size: 32px;
+    }
+    #section_area2 .col-sm-5 p {
+        font-size: 20px;
+    }
+    #section_area2 .col-sm-5 .main_sub_box {
+        display: inline;
+    }
+    .sub_box_area img {
+        width: 91px;
+    }
+    .sub_box_area h4 {
+        font-size: 26px;
     }  
        
        
