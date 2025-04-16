@@ -12,30 +12,30 @@ img{
 #header_area {
   padding: 15px 0;
 }
-#header_area .col-sm-6 ul {
+#header_area .col-sm-9 ul {
   font-family: "Oswald", sans-serif;
   margin: 10px 0 0;
   padding: 0;
   list-style: none;
   text-align: left;
 }
-#header_area .col-sm-6 ul li {
+#header_area .col-sm-9 ul li {
   display: inline-block;
   position: relative;
 }
-#header_area .col-sm-6 ul li a {
+#header_area .col-sm-9 ul li a {
   color: blue;
   padding: 10px 10px;
   display: block;
   text-decoration: none;
 }
-#header_area .col-sm-6 ul li a:hover {
+#header_area .col-sm-9 ul li a:hover {
   background: black;
   color: #fff;
 }
 
 /* Dropdown Menu */
-#header_area .col-sm-6 ul li ul {
+#header_area .col-sm-9 ul li ul {
   background: #262626 none repeat scroll 0 0;
   left: -99999px;
   margin: 0;
@@ -44,17 +44,17 @@ img{
   top: 40px;
   width: 150px;
 }
-#header_area .col-sm-6 ul li:hover ul {
+#header_area .col-sm-9 ul li:hover ul {
   left: 0px;
 }
-#header_area .col-sm-6 ul li ul li {
+#header_area .col-sm-9 ul li ul li {
   display: block;
 }
-#header_area .col-sm-6 ul li ul li a {
+#header_area .col-sm-9 ul li ul li a {
   color: #fff;
   padding: 8px 10px;
 }
-#header_area .col-sm-6 li ul li a:hover {
+#header_area .col-sm-9 li ul li a:hover {
   color: black;
   background: #ea1a70;
 }

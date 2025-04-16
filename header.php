@@ -14,10 +14,9 @@
             <div class="col-sm-3">
             <a href="<?php echo home_url(); ?>"><img src="<?php echo get_theme_mod('theme_setting_logo'); ?>" alt=""></a>    
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-9">
             <?php wp_nav_menu( array('theme_location' => 'main_manu', 'manu_id' => 'nav') ); ?>
             </div>
-            <div class="col-sm-3"></div>
         </div>
     </div>
 </header>

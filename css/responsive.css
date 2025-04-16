@@ -19,7 +19,12 @@
       ========================================================================== */
    @media only screen and (min-width: 768px) and (max-width: 991px) { 
     
-       
+    #header_area .col-sm-3 img {
+        width: 100%;
+    }
+    #header_area .col-sm-9 ul li a {
+        padding: 10px 10px;
+    }   
        
        
        
@@ -52,7 +57,7 @@
    /* ==========================================================================
       Mobile Layout: 320px.
       ========================================================================== */
-   @media only screen and (min-width: 200px) and (max-width: 479px) { 
+   @media only screen and (min-width: 200px) and (max-width: 767px) { 
        
     /* Header Area */
     #header_area .col-sm-3 img {
@@ -349,7 +354,7 @@
         font-size: 20px;
     }
     button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
-        font-size: 20px;
+        font-size: 17px;
     }
     .contact_form1 h5 {
         font-size: 40px;
