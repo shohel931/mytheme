@@ -195,7 +195,34 @@
         width: 100%;
         margin-top: 30px;
     }
-    
+    #section_area2 {
+        margin-top: 10px;
+    }
+    #section_area2 .col-sm-7 .area_box {
+         box-shadow: none; 
+    }
+    #section_area2 .col-sm-7 .area_box  h2 {
+        font-size: 50px;
+    }
+    #section_area2 .col-sm-7 .area_box  p {
+        font-size: 20px;
+    }
+    #section_area3 .col-sm-5 img {
+        display: none;
+    }
+    #section_area3 .col-sm-7 h2 {
+        font-size: 30px;
+    }
+    #section_area3 .col-sm-7 p {
+        font-size: 20px;
+    }
+    .icon_box img {
+        width: 103px;
+    }
+    .google_box h4 {
+        font-size: 25px;
+    }
+
        
        
        
