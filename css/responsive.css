@@ -43,12 +43,12 @@
    /* ==========================================================================
       Wide Mobile Layout: 480px.
       ========================================================================== */
-   @media only screen and (min-width: 480px) and (max-width: 767px) { 
+      @media screen and (max-width: 750px) { 
    
 
       /* Header Area */
     #header_area .col-sm-3 img {
-        width: 100%;
+        width: 40%;
     }     
     #header_area .col-sm-9 ul {
         display: none;
