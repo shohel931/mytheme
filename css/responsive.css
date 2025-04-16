@@ -250,8 +250,41 @@
     }
     .main_boxarea .sub_boxarea {
         width: 95%;
+        height: auto;
+    }
+    .sub_boxarea h3 {
+        font-size: 40px;
+    }
+    .sub_boxarea p {
+        font-size: 20px;
+    }
+    .sub_boxarea ul li {
+        font-size: 25px;
+    }
+    .sub_boxarea .btn1 {
+        font-size: 22px;
+    }
+    .sub_boxarea h2 {
+        font-size: 50px;
+    }
+    .sub_boxarea a {
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    /* Service Page */
+    #service_area .col-sm-5 h2 {
+        font-size: 34px;
+    }
+    #service_area .col-sm-5 p {
+        font-size: 20px;
+    }
+    #service_area .col-sm-3  img {
+        width: 100%;
+        margin-top: 20px;
     }
     
+
 
        
        
