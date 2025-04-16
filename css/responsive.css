@@ -188,6 +188,14 @@
     #about_area .col-sm-6 p {
         font-size: 20px;
     }
+    #about_area .col-sm-6 a {
+        font-size: 20px;
+    }
+    #about_area .col-sm-6 img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
        
        
        
