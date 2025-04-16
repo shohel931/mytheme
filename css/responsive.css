@@ -25,7 +25,10 @@
     #header_area .col-sm-9 ul li a {
         padding: 10px 10px;
     }   
-       
+    #header_area .col-sm-3 img {
+        width: 100%;
+        padding: 3px 0;
+    }   
        
        
        
@@ -42,29 +45,12 @@
       ========================================================================== */
    @media only screen and (min-width: 480px) and (max-width: 767px) { 
    
-       
-       
-       
-       
-       
-       
-       
-       
-   }
-   
-   
-   
-   /* ==========================================================================
-      Mobile Layout: 320px.
-      ========================================================================== */
-   @media only screen and (min-width: 200px) and (max-width: 767px) { 
-       
-    /* Header Area */
+
+      /* Header Area */
     #header_area .col-sm-3 img {
-        width: 40%;
-    }
-       
-    #header_area .col-sm-6 ul {
+        width: 100%;
+    }     
+    #header_area .col-sm-9 ul {
         display: none;
     }   
        
