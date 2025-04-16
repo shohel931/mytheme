@@ -67,11 +67,25 @@
     #hero_area .col-sm-5 h2 {
         margin-top: 0px;
         font-size: 35px;
+    }
+    #hero_area .col-sm-5 p {
+        line-height: 34px;
+        font-size: 16px;
     }  
     .btn-primary {
         font-size: 25px;
     }   
-       
+    #hero_area .col-sm-7 img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    #section_area .col-sm-4 .box {
+        display: inline;
+        text-align: center;
+    }
+    .box .sub_box img {
+        width: 190px;
+    }  
        
        
        
