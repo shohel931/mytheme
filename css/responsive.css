@@ -222,6 +222,22 @@
     .google_box h4 {
         font-size: 25px;
     }
+    #section_area4 {
+        margin-top: 0;
+    }
+    #section_area4 .col-sm-6 h2 {
+        font-size: 33px;
+    }
+    #section_area4 .col-sm-6 p {
+        font-size: 20px;
+    }
+    #section_area4 .col-sm-6 a {
+        font-size: 21px;
+    }
+    #section_area4 .col-sm-6 img {
+        width: 100%;
+        margin-top: 15px;
+    }
 
        
        
