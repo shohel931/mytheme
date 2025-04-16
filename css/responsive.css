@@ -118,6 +118,7 @@
     }
     #section_area3 .col-sm-6 img {
         width: 100%;
+        margin-left: 0;
     }
     #section_area3 .col-sm-6 h3 {
         font-size: 32px;;
@@ -166,6 +167,12 @@
     #footer_area .coppyright_area .col-sm-6 p {
         text-align: center;
         font-size: 20px;
+    }
+    #footer_area .col-sm-3 h2 {
+        font-size: 42px;
+    }
+    #footer_area ul li {
+        font-size: 25px;
     } 
        
        
