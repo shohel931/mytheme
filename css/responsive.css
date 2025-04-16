@@ -106,6 +106,22 @@
     }
     .sub_box_area h4 {
         font-size: 26px;
+    }
+    .box_area {
+        margin: 20px;
+        box-shadow: 1px 1px 10px #ddd;
+        border-radius: 16px;
+    }
+    #section_area2 .col-sm-7 img {
+        width: 100%;
+        display: none;
+    }
+    #section_area3 .col-sm-6 img {
+        width: 100%;
+    }
+    #section_area3 .col-sm-6 h3 {
+        font-size: 32px;;
+        margin-top: 30px;
     }  
        
        
