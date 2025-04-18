@@ -7,6 +7,10 @@ get_header(); ?>
 
 
 
+
+
+
+
 <section id="blog_hero">
     <div class="container">
         <div class="row">
