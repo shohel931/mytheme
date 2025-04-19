@@ -9,6 +9,13 @@
 <body <?php body_class();?>>
 
 <header id="header_area">
+    <!-- header.php ফাইলে <head> এর ভিতরে লিখুন -->
+<style>
+  body {
+    background-color: <?php echo get_theme_mod('theme_color_picker', '#ffffff'); ?>;
+  }
+</style>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
@@ -20,3 +27,19 @@
         </div>
     </div>
 </header>
+
+<style>
+  /* ধরুন আপনার মেনুর ক্লাস: .main-navigation */
+  .menu-main-menu-container {
+    background-color: <?php echo get_theme_mod('menu_bg_color', '#333333'); ?>;
+  }
+
+  .menu-main-menu-container a {
+    color: <?php echo get_theme_mod('menu_text_color', '#ffffff'); ?>;
+  }
+
+  /* হোভার কালার না চাইলেও এভাবে দিতে পারেন */
+  .menu-main-menu-container a:hover {
+    opacity: 0.8;
+  }
+</style>
