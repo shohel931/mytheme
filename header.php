@@ -30,7 +30,7 @@
 
 <style>
   /* ধরুন আপনার মেনুর ক্লাস: .main-navigation */
-  .menu-main-menu-container {
+  .menu-main-menu-container a:hover{
     background-color: <?php echo get_theme_mod('menu_bg_color', '#333333'); ?>;
   }
 

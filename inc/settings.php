@@ -1,39 +1,40 @@
 <?php 
 
 
-
-
-
-function my_custom_settings_menu() {
-    add_options_page(
-        'Header',     // Page title
-        'Header',     // Menu title
-        'manage_options',        // Capability
-        'header',     // Menu slug
-        'header-setting' // Callback function
+// Theme Settings API
+function footer_settings_page() {
+    add_option_page(
+        'Footer Setting',
+        'Footer',
+        'manage_options',
+        'footer-settings',
+        'footer_settings_page'
     );
 }
-add_action('admin_menu', 'my_custom_settings_menu');
+add_action('admin_menu','footer_settings_page');
 
-function settings_api() {
-    add_settings_field('footer', 'Footer', 'footer_func', 'Header');
-    add_settings_field('coppy', 'Coppyright', 'coppy_func', 'Header');
-    
-    register_setting('Header','footer');
-    register_setting('Header','coppy');
-    
-    }
-    add_action('admin_init','settings_api');
-
-    
-function footer_func(){
+function footer_settings_page() {
     ?>
-    <input type="text" name="footer" value="<?php echo get_option('footer'); ?>" placeholder="Footer" class="regular-text" />
+    <div class="wrap">
+        <h1>Footer Settings</h1>
+        <form method="post" action="options.php">
+            <?php
+            settings_fields('footer-settings-group');
+            do_settings_sections('footer-settings-group');
+            ?>
+            <table class="form-table">
+                <tr valign="top">
+                    <th scope="row">Footer Text</th>
+                    <td><input type="text" name="footer_text" value="<?php echo get_option('footer_text'); ?>" /></td>
+                </tr>
+                <tr valign="top">
+                    <th scope="row">Footer Link</th>
+                    <td><input type="text" name="footer_link" value="<?php echo get_option('footer_link'); ?>" /></td>
+                </tr>
+            </table>
+            <?php submit_button(); ?>
+        </form>
+    </div>
     <?php
 }
-
-function coppy_func(){
-    ?>
-    <input type="text" name="coppy" value="<?php echo get_option('coppy'); ?>" placeholder="Coppyright" class="regular-text" />
-    <?php
-}
+add_action('admin_init', 'footer_settings_init');
