@@ -48,7 +48,7 @@ function logo_update($wp_customize) {
     'description' => 'If you interested to update your color, you can do it here.'
   )); 
   $wp_customize->add_setting('theme_color_picker', array( 
-    'default' => '#000000',
+    'default' => '#ffffff',
   ));
   $wp_customize->add_control(new WP_Customize_Color_Control($wp_customize, 'theme_color_picker', array(
     'label' => 'Color Picker',
